@@ -1,0 +1,17 @@
+---
+title: "Publications"
+subtitle: "Selected articles. The complete list is on ORCID and Scopus."
+listing:
+  id: pubs
+  contents: publications.yml
+  template: publications.ejs
+  sort: false
+  page-size: 200
+---
+
+Below is a selection of my research publications. For a complete and updated list, please consult my researcher profiles.
+
+[Complete list on ORCID ↗](https://orcid.org/0000-0003-4263-0564){.text-link} &nbsp;&nbsp; [Scopus profile ↗](https://www.scopus.com/authid/detail.uri?authorId=23091546300){.text-link}
+
+::: {#pubs}
+:::

@@ -1,0 +1,31 @@
+---
+title: "Copyright & licensing"
+subtitle: "Use and reuse of materials published on this website."
+number-sections: true
+---
+
+## General policy
+
+© 2026 Jose M. Muñoz-Castañeda. All rights reserved **where I am the relevant rights holder**, except where a specific licence or legal permission provides otherwise.
+
+Accessing or downloading a document from this website does not, by itself, grant a general licence to reproduce, adapt, redistribute or commercially exploit it. Uses permitted by applicable law remain unaffected.
+
+## Teaching material
+
+Lecture notes, exercise collections, solutions and other original teaching resources will be accompanied by their own copyright or licensing notice. **No licence is granted by default.** A document may instead be made available under a stated Creative Commons licence when the rights holder expressly chooses to do so.
+
+## Software and Mathematica notebooks
+
+Original software and Mathematica code will not be licensed for reuse merely because it is mentioned or demonstrated on the website. Files made available for download will state their licence or permitted uses separately. Unpublished research code and working notebooks are not distributed here by default.
+
+## Published research
+
+Journal articles, preprints, publisher PDFs, and any third-party figures remain subject to their own copyright notices, publishing agreements and applicable licences. A link to a publisher or repository does not transfer or modify those rights.
+
+## Photographs and artwork
+
+Photographs and illustrations are governed by the rights applicable to each asset. The figures on the homepage and the Research page are new renderings computed from a published formula (Asorey & Muñoz-Castañeda, *Nucl. Phys. B* 874, 2013); they are not reproductions of the published figures.
+
+## Permissions
+
+For requests beyond any expressly granted licence, contact [jose.munoz.castaneda@uva.es](mailto:jose.munoz.castaneda@uva.es). Please identify the material and the proposed use.

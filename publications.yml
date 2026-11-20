@@ -1,0 +1,94 @@
+# Publication list. Add new papers AT THE TOP, newest first.
+# Fields:
+#   title, authors, journal, ref (volume, pages), year: required
+#   doi, arxiv: optional (arxiv is just the identifier, e.g. 2101.01234)
+#   path: link used for the title (usually the DOI link)
+
+- title: "Localised zero modes enhance massive Casimir interactions"
+  authors: "J. M. Muñoz-Castañeda, I. Cavero-Peláez, G. Sancho-Garrido"
+  journal: "Physics Letters B"
+  ref: "Article 141137, online"
+  year: 2026
+  doi: "10.1016/j.physletb.2026.141137"
+  arxiv: "2607.05530"
+  path: "https://doi.org/10.1016/j.physletb.2026.141137"
+
+- title: "Casimir self-energy of a δ–δ′ sphere"
+  authors: "C. Romaniega, J. M. Muñoz-Castañeda, I. Cavero-Peláez"
+  journal: "Physical Review D"
+  ref: "107, 025002"
+  year: 2023
+  doi: "10.1103/PhysRevD.107.025002"
+  path: "https://doi.org/10.1103/PhysRevD.107.025002"
+
+- title: "Casimir pistons with generalized boundary conditions: a step forward"
+  authors: "G. Fucci, K. Kirsten, J. M. Muñoz-Castañeda"
+  journal: "Analysis and Mathematical Physics"
+  ref: "11, 70"
+  year: 2021
+  doi: "10.1007/s13324-021-00507-2"
+  path: "https://doi.org/10.1007/s13324-021-00507-2"
+
+- title: "Casimir energy for concentric δ–δ′ spheres"
+  authors: "I. Cavero-Peláez, J. M. Muñoz-Castañeda, C. Romaniega"
+  journal: "Physical Review D"
+  ref: "103, 045005"
+  year: 2021
+  doi: "10.1103/PhysRevD.103.045005"
+  path: "https://doi.org/10.1103/PhysRevD.103.045005"
+
+- title: "Thermal Casimir effect with general boundary conditions"
+  authors: "J. M. Muñoz-Castañeda, L. Santamaría-Sanz, M. Donaire, M. Tello-Fraile"
+  journal: "The European Physical Journal C"
+  ref: "80, 793"
+  year: 2020
+  doi: "10.1140/epjc/s10052-020-8348-1"
+  path: "https://doi.org/10.1140/epjc/s10052-020-8348-1"
+
+- title: "Hyperspherical δ–δ′ potentials"
+  authors: "J. M. Muñoz-Castañeda, L. M. Nieto, C. Romaniega"
+  journal: "Annals of Physics"
+  ref: "400, 246–261"
+  year: 2019
+  doi: "10.1016/j.aop.2018.11.017"
+  path: "https://doi.org/10.1016/j.aop.2018.11.017"
+
+- title: "Two-point one-dimensional δ–δ′ interactions: non-abelian addition law and decoupling limit"
+  authors: "M. Gadella, J. Mateos Guilarte, J. M. Muñoz-Castañeda, L. M. Nieto"
+  journal: "Journal of Physics A: Mathematical and Theoretical"
+  ref: "49, 015204"
+  year: 2016
+  doi: "10.1088/1751-8113/49/1/015204"
+  path: "https://doi.org/10.1088/1751-8113/49/1/015204"
+
+- title: "δ–δ′ generalized Robin boundary conditions and quantum vacuum fluctuations"
+  authors: "J. M. Muñoz-Castañeda, J. Mateos Guilarte"
+  journal: "Physical Review D"
+  ref: "91, 025028"
+  year: 2015
+  doi: "10.1103/PhysRevD.91.025028"
+  path: "https://doi.org/10.1103/PhysRevD.91.025028"
+
+- title: "QFT over the finite line: heat kernel coefficients, spectral zeta functions and selfadjoint extensions"
+  authors: "J. M. Muñoz-Castañeda, K. Kirsten, M. Bordag"
+  journal: "Letters in Mathematical Physics"
+  ref: "105, 523–549"
+  year: 2015
+  doi: "10.1007/s11005-015-0750-5"
+  path: "https://doi.org/10.1007/s11005-015-0750-5"
+
+- title: "Attractive and repulsive Casimir vacuum energy with general boundary conditions"
+  authors: "M. Asorey, J. M. Muñoz-Castañeda"
+  journal: "Nuclear Physics B"
+  ref: "874, 852–876"
+  year: 2013
+  doi: "10.1016/j.nuclphysb.2013.06.014"
+  path: "https://doi.org/10.1016/j.nuclphysb.2013.06.014"
+
+- title: "Casimir effect and global theory of boundary conditions"
+  authors: "M. Asorey, D. García-Álvarez, J. M. Muñoz-Castañeda"
+  journal: "Journal of Physics A: Mathematical and General"
+  ref: "39, 6127–6136"
+  year: 2006
+  doi: "10.1088/0305-4470/39/21/S03"
+  path: "https://doi.org/10.1088/0305-4470/39/21/S03"

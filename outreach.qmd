@@ -1,0 +1,19 @@
+---
+title: "Outreach & public engagement"
+subtitle: "Communicating mathematical and theoretical physics beyond specialist research papers."
+number-sections: true
+---
+
+Scientific communication and outreach complement research and university teaching. This page is intended to document **public-facing activity** with a clear audience, date and evidence of participation.
+
+## Public lectures and educational activities
+
+Talks for general audiences, public science events and non-specialist educational resources will be added here **when verified**.
+
+## Articles, interviews and media
+
+Public-facing articles, interviews and other contributions will be linked to the original publisher, host institution or event programme.
+
+## Distinguishing outreach from academic service
+
+Research conferences, invited specialist talks and the organisation of scientific meetings are important academic contributions, but **they are not automatically outreach**. They are recorded separately under [Research](research.qmd) and [Academic CV](academic-cv.qmd).

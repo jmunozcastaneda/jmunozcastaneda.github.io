@@ -1,0 +1,47 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - "*.qmd"
+    - "!blog.qmd"        # BLOG: borra esta línea para publicar la página del blog
+    - "posts/**/*.qmd"
+  resources:
+    - "images/**"
+
+website:
+  title: "J. M. Muñoz-Castañeda"
+  site-url: "https://jmunozcastaneda.github.io"
+  description: "Mathematical physics at the Universidad de Valladolid: spectral theory, quantum field theory and Casimir physics."
+  favicon: images/favicon.png
+  open-graph: true
+  page-navigation: false
+  search: false
+  navbar:
+    right:
+      - text: Home
+        href: index.qmd
+      - text: Research
+        href: research.qmd
+      - text: Publications
+        href: publications.qmd
+      - text: Academic CV
+        href: academic-cv.qmd
+      # BLOG: quita el # de las dos líneas siguientes para mostrar el blog en el menú
+      # - text: Blog
+      #   href: blog.qmd
+      - text: Contact
+        href: contact.qmd
+  page-footer:
+    left: "© 2026 Jose M. Muñoz-Castañeda · [Copyright & licensing](copyright.qmd)"
+    right: "Universidad de Valladolid · Built with [Quarto](https://quarto.org)"
+
+format:
+  html:
+    theme:
+      - cosmo
+      - styles/theme.scss
+    lang: en
+    toc: false
+    anchor-sections: false
+    smooth-scroll: true
+    html-math-method: mathjax

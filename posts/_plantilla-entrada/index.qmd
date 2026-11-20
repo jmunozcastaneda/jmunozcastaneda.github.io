@@ -1,0 +1,31 @@
+---
+title: "Title of the post"
+description: "One sentence that appears in the blog list."
+date: 2026-12-01
+categories: [Casimir physics, teaching]
+draft: true
+---
+
+<!--
+PLANTILLA PARA UNA ENTRADA NUEVA
+
+1. Copia esta carpeta dentro de posts/ y quítale el guion bajo inicial del nombre,
+   por ejemplo:  posts/2026-12-casimir-pistons/index.qmd
+   (las carpetas que empiezan por _ no se publican nunca).
+2. Cambia título, descripción, fecha y categorías arriba.
+3. Mientras escribes, deja  draft: true  y la entrada no aparecerá en la web.
+   Cuando esté lista, borra esa línea (o pon draft: false) y haz Commit y Push.
+4. Las imágenes de la entrada van en la misma carpeta, junto a index.qmd.
+-->
+
+Write in Markdown as usual. Inline mathematics goes between single dollars, like $E = \hbar\omega/2$, and displayed equations between double dollars:
+
+$$
+E_{\text{Cas}} = -\frac{\pi^2}{1440\,L^3}.
+$$
+
+A figure stored in this folder:
+
+![Caption of the figure.](figure.png){fig-alt="Description of the figure for screen readers."}
+
+A reference to a paper: [Asorey & Muñoz-Castañeda, Nucl. Phys. B 874 (2013)](https://doi.org/10.1016/j.nuclphysb.2013.06.014).

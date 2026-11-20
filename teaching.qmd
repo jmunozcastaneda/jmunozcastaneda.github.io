@@ -1,0 +1,36 @@
+---
+title: "Teaching & supervision"
+subtitle: "Faculty of Sciences, Universidad de Valladolid."
+number-sections: true
+---
+
+<!--
+## Courses
+
+Uncomment this section and list your current courses, for example:
+
+- **Course name.** Degree, academic year.
+- **Course name.** Master's programme, academic year.
+-->
+
+## Doctoral theses
+
+::: entry-list
+- **G. Sancho-Garrido.** FPU doctoral fellow, in progress. Co-supervised with J. M. Izquierdo.
+- **L. Santamaría-Sanz.** FPU, defended April 2023. Co-supervised with L. M. Nieto.
+- **C. Romaniega Sancho.** FPU, defended February 2023. Co-supervised with L. M. Nieto and I. Cavero-Peláez.
+:::
+
+## Bachelor's and Master's theses
+
+I have supervised 12 Bachelor's theses (TFG), including six associated with *Becas de Colaboración*, and four Master's theses (TFM).
+
+## Teaching materials
+
+Lecture notes, problem collections and computational demonstrations will be offered selectively, each with its own version information and rights notice. The website will not serve as a public repository of unpublished research material.
+
+For selected computational resources, see [Mathematica notebooks](mathematica.qmd) and the [copyright policy](copyright.qmd).
+
+## Prospective students
+
+If you are interested in a Bachelor's or Master's thesis, a *Beca de Colaboración* or a PhD on spectral theory, quantum fields or Casimir physics, write to me at [jose.munoz.castaneda@uva.es](mailto:jose.munoz.castaneda@uva.es).

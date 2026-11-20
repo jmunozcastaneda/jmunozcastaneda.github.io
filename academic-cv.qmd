@@ -1,0 +1,39 @@
+---
+title: "Academic CV & service"
+subtitle: "Teaching, research supervision, academic responsibilities and scientific leadership."
+number-sections: true
+---
+
+This overview highlights selected areas of academic activity at the **Universidad de Valladolid**. It is a public profile, **not a substitute for the official certified CV and supporting documents** used in academic evaluation procedures. Counts, dates and roles should be checked against the latest signed CV before publication.
+
+## Academic appointment
+
+**Profesor Titular de Universidad**, Departamento de Física Teórica, Atómica y Óptica, Universidad de Valladolid. Member of the Instituto de Matemáticas de la Universidad de Valladolid (IMUVA).
+
+## Research and teaching record
+
+- **Three research evaluation periods (sexenios)** and **three teaching evaluation periods (quinquenios)**, subject to verification against the current official record.
+- **Two doctoral theses defended**, together with ongoing doctoral supervision.
+- **Twelve Bachelor's theses (TFG)**, including six associated with *Becas de Colaboración*, and **four Master's theses (TFM)** supervised.
+
+See [Teaching & supervision](teaching.qmd) for details and [Publications](publications.qmd) for published research outputs.
+
+## Academic responsibilities
+
+Selected coordination and institutional responsibilities include:
+
+- Erasmus mobility coordination for Italy and SICUE coordination.
+- Mobility coordination within the Physics section.
+- Elected membership of the Physics section board (*Junta de Sección de Física*).
+- Membership of the Physics degree committee (*Comité de Grado de Física*).
+
+Precise periods of office and appointment documents can be incorporated once verified.
+
+## Scientific organisation and leadership
+
+- Main organiser of the **36th International Colloquium on Group Theoretical Methods in Physics (GROUPS36)**, Valladolid, July 2026.
+- Additional international scientific meetings listed in [Research](research.qmd), with roles to be documented against programmes and certificates.
+
+## Evidence and full CV
+
+A validated PDF CV and links to public evidence (doctoral repositories, conference programmes, institutional appointments and funded-project records) can be added here. Until checked, **no CV PDF is published** on this page.

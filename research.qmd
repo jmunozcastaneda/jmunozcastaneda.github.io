@@ -1,0 +1,47 @@
+---
+title: "Research"
+subtitle: "Spectral theory of differential operators arising in quantum field theory."
+number-sections: true
+---
+
+I am a mathematical physicist working on the spectral theory of the differential operators that arise in quantum field theory: self-adjoint extensions and boundary conditions, heat-kernel expansions and spectral zeta functions, and functional and relative determinants.
+
+My central question is how singular backgrounds (boundaries, point interactions, defects and topological solitons) determine quantum vacuum observables, and under which mathematical conditions these observables are well defined.
+
+## Quantum field theory {#quantum-field-theory}
+
+Quantum fluctuations around singular and analytically tractable backgrounds: boundaries, point interactions, periodic one-dimensional structures, defects and topological solitons. A recent line of work studies localised zero modes of otherwise gapped fluctuation operators, which open a vacuum-interaction channel that decays more slowly than massive exchange.
+
+## Spectral and operator theory {#spectral-and-operator-theory}
+
+The mathematical backbone of the programme: the classification of self-adjoint extensions compatible with the principles of quantum field theory, heat-kernel coefficients and spectral zeta functions for general boundary conditions, and functional and relative determinants.
+
+## Casimir physics {#casimir-physics}
+
+Vacuum energies and forces as functions of the boundary conditions, and the conditions under which Casimir forces are attractive or repulsive. This includes the structure of δ–δ′ point interactions in one and higher dimensions, thermal corrections, and interactions between extended objects through the TGTG representation, developed in Leipzig with M. Bordag.
+
+::: research-figure
+![[Fig. 1.]{.runin} Casimir energy across four slices of the space of consistent boundary conditions: from left to right, n₁ = 0, 1/3, 2/3 and 1, where n₁ is the first component of the unit vector in U(α, β, n). Blue regions attract, orange regions repel, and the dark curves mark Casimirless boundary conditions. As n₁ grows, the left repulsive region vanishes and the right one widens, until at n₁ = 1 the strongest repulsion (antiperiodic) and the strongest attraction (periodic) sit at opposite corners. Computed from the spectral function of Asorey & Muñoz-Castañeda, *Nucl. Phys. B* 874 (2013).](images/casimir-slices.png){fig-alt="Four diamond-shaped maps of the Casimir energy, coloured blue for attraction and orange for repulsion, for n₁ = 0, 1/3, 2/3 and 1."}
+:::
+
+## Projects and collaborations
+
+My research has been developed through national and international scientific collaborations and competitively funded projects. See [Scientific collaborations](collaborations.qmd) for selected partners and joint research, and [Academic CV & service](academic-cv.qmd) for organisational responsibilities.
+
+## Selected talks
+
+::: entry-list
+- **High temperature quantum fluctuations.** Invited plenary talk. *New Trends in First Quantisation: Field Theory, Gravity and Quantum Computing*, Physikzentrum Bad Honnef, Germany, April 2025.
+- **Scalar quantum fluctuations in 1D periodic backgrounds.** *VIth Cosmology and the Quantum Vacuum Workshop*, Barcelona, March 2020.
+- **On the quantum vacuum energy for 1D crystals.** *10th Alexander Friedmann International Seminar on Gravitation and Cosmology and 4th Symposium on the Casimir Effect*, Saint Petersburg, June 2019.
+- **Quantum fields and boundaries.** Invited mini-course (3 hours). *V International Workshop on Foundations of Quantum Mechanics and Applications*, ICMAT, Madrid, 2017.
+- **Quantum fields over bounded domains.** *II Russian-Spanish Congress: Particle and Nuclear Physics at All Scales and Cosmology*, Saint Petersburg, October 2013.
+:::
+
+## Organised meetings
+
+::: entry-list
+- [**36th International Colloquium on Group Theoretical Methods in Physics**](https://icgtmp.blogs.uva.es). Co-organiser. Universidad de Valladolid, July 2026.
+- [**Mathematical Structures in Quantum Systems and Applications**](http://benasque.org/2012msqs/). Co-organiser. Centro de Ciencias de Benasque, July 2012.
+- [**What is quantum field theory? In honor of M. Asorey**](http://benasque.org/2011qft/). Co-organiser. Centro de Ciencias de Benasque, September 2011.
+:::

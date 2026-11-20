@@ -1,0 +1,30 @@
+```{=html}
+<div class="pub-list">
+<%
+  const groups = [];
+  for (const item of items) {
+    const last = groups[groups.length - 1];
+    if (last && last.year === item.year) { last.items.push(item); }
+    else { groups.push({ year: item.year, items: [item] }); }
+  }
+%>
+<% for (const group of groups) { %>
+  <section class="pub-group">
+    <h2 class="pub-year" id="y<%= group.year %>"><%= group.year %></h2>
+    <div class="pub-items">
+    <% for (const item of group.items) { %>
+      <div class="pub" <%= metadataAttrs(item) %>>
+        <div class="pub-title"><a href="<%- item.path %>"><%= item.title %></a></div>
+        <div class="pub-authors"><%= item.authors.replace("J. M. Muñoz-Castañeda", "<strong>J. M. Muñoz-Castañeda</strong>") %></div>
+        <div class="pub-venue"><em><%= item.journal %></em> <%= item.ref %> (<%= item.year %>)</div>
+        <div class="pub-links">
+          <% if (item.doi) { %><a href="https://doi.org/<%- item.doi %>">DOI ↗</a><% } %>
+          <% if (item.arxiv) { %><a href="https://arxiv.org/abs/<%- item.arxiv %>">arXiv ↗</a><% } %>
+        </div>
+      </div>
+    <% } %>
+    </div>
+  </section>
+<% } %>
+</div>
+```

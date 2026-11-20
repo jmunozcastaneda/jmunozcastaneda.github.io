@@ -1,0 +1,378 @@
+/*-- scss:defaults --*/
+
+// Typography: Spectral (headings, a screen serif whose name fits the subject) + IBM Plex Sans (text).
+// STIX Two Text, a typeface designed for scientific publishing, supplies the Greek letters Spectral lacks.
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Spectral:ital,wght@0,300;0,400;0,500;1,300;1,400&family=STIX+Two+Text:ital,wght@0,400;0,500;1,400&display=swap");
+
+// Palette: cream paper, navy "vacuum", and the two poles of the field artwork
+$cream:  #FAF8F4;
+$paper:  #FFFFFF;
+$vacuum: #0E2236;   // deep navy: hero and closing block
+$navy:   #17354D;   // headings, links
+$ink:    #1E2B38;   // body text
+$muted:  #5A6470;
+$rule:   #E3DDD2;
+$cold:   #2A7BC4;   // blue pole of the field (light backgrounds)
+$warm:   #B0541A;   // orange pole of the field (light backgrounds)
+$cold-lit: #5CC6E8; // blue pole on navy
+$warm-lit: #F5A23A; // orange pole on navy
+
+
+$body-bg: $cream;
+$body-color: $ink;
+$primary: $navy;
+$link-color: $navy;
+$link-decoration: none;
+
+$font-family-sans-serif: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+$headings-font-family: "Spectral", "STIX Two Text", Georgia, "Times New Roman", serif;
+$headings-font-weight: 400;
+$headings-color: $navy;
+$line-height-base: 1.62;
+
+$navbar-bg: $cream;
+$navbar-fg: $muted;
+$navbar-hl: $navy;
+$footer-bg: $cream;
+$footer-fg: $muted;
+$border-color: $rule;
+
+
+/*-- scss:rules --*/
+
+// ================= Base =================
+
+body { font-feature-settings: "kern", "liga"; -webkit-font-smoothing: antialiased; }
+h1, h2, h3, h4 { letter-spacing: -0.012em; }
+a { text-underline-offset: 0.2em; }
+a:hover { color: $warm; }
+:focus-visible { outline: 2px solid $warm; outline-offset: 3px; border-radius: 2px; }
+
+.navbar {
+  border-bottom: 1px solid $rule;
+  .navbar-container { max-width: 1120px; margin: 0 auto; padding: 0 1.5rem; }
+  .navbar-title { font-family: $headings-font-family; font-size: 1.15rem; font-weight: 500; color: $navy !important; white-space: nowrap; }
+  .nav-link { font-size: 0.86rem; font-weight: 500; white-space: nowrap; }
+  .nav-link.active { color: $navy !important; font-weight: 600; }
+}
+
+.nav-footer {
+  max-width: 1120px; margin: 0 auto; padding: 0 1.5rem;
+  border-top: 1px solid $rule;
+  font-size: 0.84rem;
+  a { color: $muted; text-decoration: underline; }
+}
+
+// Secondary links with an underline
+.text-link a, a.text-link {
+  color: $navy; font-weight: 600; text-decoration: none;
+  border-bottom: 1px solid rgba($navy, 0.4); padding-bottom: 2px;
+  &:hover { color: $warm; border-color: $warm; }
+}
+
+.button-primary a, a.button-primary {
+  display: inline-block; background: $navy; color: #fff; font-weight: 600;
+  padding: 0.72rem 1.3rem; border-radius: 4px; text-decoration: none;
+  &:hover { background: darken($navy, 6%); color: #fff; }
+}
+
+// Paper-style run-in labels ("Abstract.", "Fig. 1.", "Keywords:")
+.runin { font-style: italic; font-family: $headings-font-family; font-weight: 500; }
+
+// Section kickers: "1 Research", numbered like the sections of an article
+.kicker {
+  display: block; font-size: 0.92rem; font-weight: 500; color: $muted; margin-bottom: 0.5rem;
+  .num { font-family: $headings-font-family; font-style: italic; font-size: 1.15rem; color: $warm; margin-right: 0.45rem; }
+}
+
+// ================= Hero: the vacuum =================
+
+.hero-band {
+  background:
+    radial-gradient(ellipse 40% 55% at 74% 42%, rgba(92, 198, 232, 0.10), transparent 70%),
+    radial-gradient(ellipse 35% 45% at 82% 66%, rgba(245, 162, 58, 0.09), transparent 70%),
+    $vacuum;
+  color: $cream;
+  margin-top: -1px;
+  p { margin: 0; }
+}
+
+.hero {
+  max-width: 1120px; margin: 0 auto;
+  padding: 4.5rem 1.5rem 3rem;
+  display: grid;
+  grid-template-columns: minmax(0, 1.08fr) minmax(0, 0.92fr);
+  gap: 3rem;
+  align-items: center;
+}
+
+.hero-text {
+  .kicker { color: rgba($cream, 0.72); font-family: $headings-font-family; font-style: italic; font-size: 1.1rem; font-weight: 400; }
+  h1 {
+    color: $cream;
+    font-weight: 300;
+    font-size: clamp(3rem, 5.8vw, 4.9rem);
+    line-height: 0.98;
+    letter-spacing: -0.02em;
+    margin: 0.4rem 0 1.5rem;
+    hyphens: none;
+  }
+  .affiliation { display: block; font-weight: 500; font-size: 0.98rem; color: rgba($cream, 0.9); padding-bottom: 1.4rem; margin-bottom: 1.4rem; border-bottom: 1px solid rgba($cream, 0.16); }
+  .lede { display: block; font-family: $headings-font-family; font-size: 1.28rem; line-height: 1.45; color: rgba($cream, 0.92); max-width: 36ch; margin-bottom: 1rem; }
+  .keywords { display: block; font-size: 0.86rem; color: rgba($cream, 0.62); max-width: 52ch; }
+  .keywords .runin { color: rgba($cream, 0.85); font-size: 0.98rem; }
+}
+
+// Figure 1: the portrait in front of the Casimir map
+.hero-plate {
+  p { margin: 0; }
+  > p:first-child { position: relative; aspect-ratio: 1 / 1.08; }   // holds the two images
+}
+.plate-art {
+  position: absolute; top: 0; right: 0; width: 84%; height: auto;
+  filter: drop-shadow(0 0 70px rgba(92, 198, 232, 0.14));
+}
+.plate-photo {
+  position: absolute; left: 0; bottom: 0; width: 60%; height: auto;
+  aspect-ratio: 809 / 1000; object-fit: cover;
+  border-radius: 3px;
+  box-shadow: 0 0 0 1px rgba($cream, 0.35), 0 28px 60px rgba(0, 0, 0, 0.55);
+}
+
+.hero-actions {
+  grid-column: 1 / -1;
+  border-top: 1px solid rgba($cream, 0.14);
+  padding-top: 1.4rem;
+  p { display: flex; flex-wrap: wrap; align-items: center; gap: 0.9rem 1.6rem; }
+  .button-primary a { background: $cream; color: $vacuum; }
+  .button-primary a:hover { background: #fff; color: $vacuum; }
+  .text-link a { color: $cream; border-color: rgba($cream, 0.4); font-weight: 500; font-size: 0.92rem; white-space: nowrap; }
+  .text-link a:hover { color: $warm-lit; border-color: $warm-lit; }
+}
+
+
+// ================= Home sections =================
+
+.home {
+  max-width: 1120px; margin: 0 auto; padding: 0 1.5rem 1rem;
+  p { margin-bottom: 0; }
+  h2 { border-bottom: none; padding-bottom: 0; }
+}
+
+.home-section { margin-top: 5.5rem; }
+
+.section-head {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr);
+  gap: 2.5rem; align-items: end;
+  margin-bottom: 2.6rem;
+  h2 { font-weight: 300; font-size: clamp(2.1rem, 3.6vw, 2.9rem); line-height: 1.06; margin: 0; }
+  > p { color: $muted; max-width: 46ch; }
+}
+
+// Three research lines, each introduced by its own mathematical object
+.research-lines {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  border-top: 1px solid $ink;
+}
+.research-line {
+  padding: 1.6rem 2rem 0.4rem 0;
+  & + .research-line { padding-left: 2rem; border-left: 1px solid $rule; }
+  h3 { font-size: 1.5rem; margin: 0.9rem 0 0.6rem; }
+  h3 a { color: $navy; }
+  h3 a:hover { color: $warm; }
+  p { color: $muted; font-size: 0.94rem; max-width: 34ch; }
+}
+.glyph {
+  display: block;
+  font-family: $headings-font-family; font-weight: 300; font-size: 3.1rem; line-height: 1;
+  em { font-style: italic; }
+  sub { font-size: 0.45em; bottom: -0.1em; }
+  &.g1 { color: $cold; }
+  &.g2 { color: #7E6A4C; }
+  &.g3 { color: $warm; }
+}
+
+// Selected work, set as a numbered reference list
+.selected-work > .kicker { margin-bottom: 1.2rem; }
+.work {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 2.4fr);
+  gap: 2.5rem;
+  padding: 1.9rem 0;
+  border-top: 1px solid $rule;
+}
+.work.featured { border-top: 1px solid $ink; }
+.work-meta {
+  font-size: 0.86rem; color: $muted; line-height: 1.5;
+  .ref-num { display: block; font-family: $headings-font-family; font-size: 1.5rem; color: $navy; margin-bottom: 0.5rem; }
+  .journal { display: block; color: $ink; font-weight: 600; }
+  .topic { display: block; margin-top: 0.4rem; color: $warm; }
+}
+.work-body {
+  h3 { font-size: 1.45rem; line-height: 1.22; margin: 0 0 0.45rem; }
+  .authors { display: block; font-size: 0.88rem; color: $muted; margin-bottom: 0.7rem; }
+  .summary { display: block; max-width: 62ch; margin-bottom: 1rem; }
+  .links p { display: flex; gap: 1.4rem; font-size: 0.92rem; }
+}
+.work.featured {
+  .ref-num { font-size: 2.2rem; color: $warm; }
+  .work-body h3 { font-weight: 300; font-size: clamp(1.9rem, 3.2vw, 2.5rem); line-height: 1.1; }
+  .work-body .summary { font-family: $headings-font-family; font-size: 1.18rem; line-height: 1.5; }
+}
+
+// Academic activities, set like a table of contents
+.contribution-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 3rem;
+  border-top: 1px solid $ink;
+  margin-bottom: 1.8rem;
+}
+.contribution {
+  padding: 1.3rem 0 1.4rem;
+  border-bottom: 1px solid $rule;
+  h3 { font-size: 1.4rem; margin: 0 0 0.35rem; }
+  h3 a { color: $navy; }
+  h3 a:hover { color: $warm; }
+  p { color: $muted; font-size: 0.93rem; max-width: 48ch; }
+}
+
+// Closing block, echoing the hero
+.cta {
+  position: relative; overflow: hidden;
+  margin-top: 5.5rem;
+  background: $vacuum; color: $cream;
+  border-radius: 6px;
+  padding: 2.6rem 2.8rem;
+  display: flex; justify-content: space-between; align-items: center; gap: 2rem; flex-wrap: wrap;
+  .kicker { color: rgba($cream, 0.65); font-family: $headings-font-family; font-style: italic; font-size: 1.05rem; font-weight: 400; }
+  h2 { color: $cream; font-weight: 300; font-size: 2rem; margin: 0 0 0.5rem; }
+  p { color: rgba($cream, 0.82); }
+  .cta-links p { display: flex; gap: 1.8rem; margin: 0; }
+  .cta-links a {
+    color: $cream; font-weight: 500; text-decoration: none;
+    border-bottom: 1px solid rgba($cream, 0.55); padding-bottom: 2px;
+    &:hover { color: $warm-lit; border-color: $warm-lit; }
+  }
+}
+
+// ================= Inner pages =================
+
+#title-block-header {
+  margin-bottom: 2.2rem;
+  padding-bottom: 1.6rem;
+  border-bottom: 1px solid $ink;
+}
+.quarto-title-block .title { font-weight: 300; font-size: clamp(2.4rem, 4.4vw, 3.3rem); line-height: 1.05; }
+.quarto-title-block .subtitle { color: $muted; font-family: $headings-font-family; font-style: italic; font-size: 1.2rem; margin-top: 0.7rem; }
+
+main.content {
+  h2 {
+    font-size: 1.85rem; margin-top: 3rem; margin-bottom: 0.9rem; padding-top: 1.1rem;
+    border-top: 1px solid $rule; border-bottom: none;
+  }
+  h3 { font-size: 1.35rem; margin-top: 2rem; }
+  .header-section-number { font-style: italic; color: $warm; margin-right: 0.35em; }
+}
+
+.entry-list {
+  ul { list-style: none; padding-left: 0; }
+  li { padding: 0.75rem 0; border-bottom: 1px solid $rule; }
+  li:last-child { border-bottom: none; }
+}
+
+.profile-links ul {
+  list-style: none; padding-left: 0;
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 0.6rem 1.5rem;
+}
+
+// Publications (rendered from publications.yml), grouped by year
+.pub-list { margin-top: 2rem; }
+.pub-group {
+  display: grid; grid-template-columns: 6rem minmax(0, 1fr); gap: 1.5rem;
+  border-top: 1px solid $rule; padding: 1.2rem 0 0.6rem;
+}
+main.content h2.pub-year {
+  margin: 0; padding: 0; border: none;
+  font-weight: 300; font-size: 1.6rem; line-height: 1.5; color: $warm;
+}
+.pub {
+  padding: 0 0 1.1rem;
+  .pub-title { font-family: $headings-font-family; font-size: 1.2rem; line-height: 1.3; color: $navy; }
+  .pub-authors { font-size: 0.9rem; color: $muted; margin-top: 0.2rem; }
+  .pub-authors strong { color: $ink; font-weight: 600; }
+  .pub-venue { font-size: 0.9rem; margin-top: 0.1rem; }
+  .pub-links { font-size: 0.86rem; margin-top: 0.35rem; display: flex; gap: 1.1rem; }
+  .pub-links a { color: $navy; text-decoration: underline; }
+}
+
+// Figures inside inner pages (e.g. Fig. 2 on Research)
+.research-figure {
+  margin: 2.2rem 0 1rem;
+  figure { margin: 0; }
+  img { width: 100%; height: auto; }
+  figcaption { font-size: 0.86rem; line-height: 1.55; color: $muted; margin-top: 0.6rem; max-width: 70ch; }
+  .runin { color: $ink; }
+}
+
+// ================= Responsive =================
+
+@media (max-width: 1100px) {
+  .navbar .nav-link { font-size: 0.8rem; padding-left: 0.4rem !important; padding-right: 0.4rem !important; }
+}
+
+@media (max-width: 960px) {
+  .hero { grid-template-columns: 1fr; gap: 2.5rem; padding-top: 3rem; }
+  .hero-plate { max-width: 560px; }
+  .research-lines { grid-template-columns: 1fr; }
+  .research-line, .research-line + .research-line { padding: 1.4rem 0; border-left: none; border-bottom: 1px solid $rule; }
+  .section-head { grid-template-columns: 1fr; gap: 1rem; }
+}
+
+@media (max-width: 680px) {
+  .navbar .navbar-brand-container { max-width: calc(100% - 64px) !important; }
+  .hero { padding: 2.2rem 1rem 1.6rem; }
+  .hero-text .lede { font-size: 1.15rem; }
+  .hero-text h1 { font-size: clamp(2.3rem, 10.5vw, 3rem); }
+  .plate-photo { width: 62%; }
+  .home { padding: 0 1rem; }
+  .home-section, .cta { margin-top: 3.8rem; }
+  .work { grid-template-columns: 1fr; gap: 0.5rem; }
+  .work-meta .ref-num { display: inline; margin-right: 0.5rem; }
+  .contribution-grid { grid-template-columns: 1fr; }
+  .cta { padding: 1.9rem 1.6rem; }
+  .pub-group { grid-template-columns: 1fr; gap: 0.4rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
+
+// ================= Blog =================
+
+.post-list { margin-top: 0.5rem; }
+.post-item {
+  display: grid; grid-template-columns: 9rem minmax(0, 1fr); gap: 1.5rem;
+  padding: 1.4rem 0; border-top: 1px solid $rule;
+}
+.post-date { font-family: $headings-font-family; font-style: italic; color: $warm; padding-top: 0.25rem; }
+main.content h2.post-title {
+  margin: 0 0 0.4rem; padding: 0; border: none;
+  font-size: 1.5rem; line-height: 1.25;
+  a { color: $navy; }
+  a:hover { color: $warm; }
+}
+.post-desc { color: $muted; margin-bottom: 0.5rem; max-width: 60ch; }
+.post-item:first-child { border-top: none; padding-top: 0.4rem; }
+.post-cats .listing-category, .quarto-categories .quarto-category {
+  display: inline-block; margin-right: 0.8rem; font-size: 0.8rem; color: $warm; cursor: pointer;
+  border: none !important; padding: 0 !important; background: none; text-transform: none !important; opacity: 1 !important; color: $warm !important; font-size: 0.85rem !important;
+}
+.quarto-listing-category .category { color: $muted; }
+.quarto-listing-category .category.active { color: $warm; font-weight: 600; }
+
+@media (max-width: 680px) {
+  .post-item { grid-template-columns: 1fr; gap: 0.3rem; }
+}

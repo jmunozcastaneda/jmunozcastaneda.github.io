@@ -1,0 +1,15 @@
+---
+title: "Blog"
+subtitle: "Notes on mathematical physics, teaching and research."
+listing:
+  id: posts
+  contents: posts
+  template: blog.ejs
+  sort: "date desc"
+  categories: true
+  feed: true
+  page-size: 20
+---
+
+::: {#posts}
+:::

@@ -1,0 +1,24 @@
+---
+title: "Contact"
+---
+
+**Email:** [jose.munoz.castaneda@uva.es](mailto:jose.munoz.castaneda@uva.es)
+
+**Address:**\
+Departamento de Física Teórica, Atómica y Óptica\
+Facultad de Ciencias, Universidad de Valladolid\
+Paseo de Belén 7, 47011 Valladolid, Spain
+
+## Researcher profiles
+
+::: profile-links
+- [ORCID ↗](https://orcid.org/0000-0003-4263-0564)
+- [Scopus ↗](https://www.scopus.com/authid/detail.uri?authorId=23091546300)
+- [Web of Science ↗](https://publons.com/researcher/1964484/jose-m-munoz-castaneda/)
+- [GitHub ↗](https://github.com/jmunozcastaneda)
+<!-- Add when available:
+- [Google Scholar ↗](https://scholar.google.com/citations?user=YOUR_ID)
+- [arXiv ↗](https://arxiv.org/a/YOUR_ID)
+- [INSPIRE-HEP ↗](https://inspirehep.net/authors/YOUR_ID)
+-->
+:::

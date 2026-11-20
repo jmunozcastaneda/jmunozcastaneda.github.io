@@ -1,0 +1,21 @@
+---
+title: "Mathematica notebooks"
+subtitle: "Symbolic calculations, numerical demonstrations and reproducible examples."
+number-sections: true
+---
+
+I use **Wolfram Mathematica** for symbolic and numerical work in mathematical physics. This page will host a curated selection of **self-contained notebooks** that I expressly choose to make public.
+
+## Teaching demonstrations
+
+Explanatory notebooks accompanying lecture notes or problem sessions can be listed here with the course, level, version and usage conditions. **No teaching notebooks are available for download yet.**
+
+## Scientific and computational examples
+
+Selected demonstrations related to spectral problems, scattering theory and quantum-vacuum calculations may be shared when they concern public, fully disclosed results. Research working files, unpublished algorithms and confidential numerical investigations are **not published by default**.
+
+## Information accompanying each notebook
+
+Every released file will identify its author(s), version and date, required Mathematica version, relevant scientific reference (where appropriate), and **its individual copyright or software licence**. Viewing this page does not grant access to, or permission to reuse, unshared source code.
+
+For questions about permitted uses, consult [Copyright & licensing](copyright.qmd) or [contact me](contact.qmd).

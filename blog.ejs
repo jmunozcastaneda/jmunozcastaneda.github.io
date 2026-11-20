@@ -1,0 +1,18 @@
+```{=html}
+<div class="post-list">
+<% for (const item of items) { %>
+  <article class="post-item" <%= metadataAttrs(item) %>>
+    <div class="post-date"><%= item.date %></div>
+    <div class="post-body">
+      <h2 class="post-title"><a href="<%- item.path %>"><%= item.title %></a></h2>
+      <% if (item.description) { %><p class="post-desc"><%= item.description %></p><% } %>
+      <% if (item.categories) { %>
+      <div class="post-cats">
+        <% for (const cat of item.categories) { %><span class="listing-category" onclick="window.quartoListingCategory('<%=utils.b64encode(cat)%>'); return false;"><%= cat %></span><% } %>
+      </div>
+      <% } %>
+    </div>
+  </article>
+<% } %>
+</div>
+```

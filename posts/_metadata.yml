@@ -1,0 +1,6 @@
+# Settings shared by every blog post
+author: "Jose M. Muñoz-Castañeda"
+date-format: "D MMMM YYYY"
+number-sections: false
+toc: false
+title-block-categories: true
