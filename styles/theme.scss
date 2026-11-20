@@ -107,11 +107,13 @@ a:hover { color: $warm; }
 }
 
 .hero-text {
+  container-type: inline-size;   // the name is sized to the width of this column
   .kicker { color: rgba($cream, 0.72); font-family: $headings-font-family; font-style: italic; font-size: 1.1rem; font-weight: 400; }
   h1 {
     color: $cream;
     font-weight: 300;
-    font-size: clamp(3rem, 5.8vw, 4.9rem);
+    font-size: clamp(1.8rem, 4.4vw, 4.2rem);   // fallback for old browsers
+    font-size: clamp(1.8rem, 12.4cqi, 4.7rem); // fits "Muñoz-Castañeda" in its column
     line-height: 0.98;
     letter-spacing: -0.02em;
     margin: 0.4rem 0 1.5rem;
@@ -335,7 +337,6 @@ main.content h2.pub-year {
   .navbar .navbar-brand-container { max-width: calc(100% - 64px) !important; }
   .hero { padding: 2.2rem 1rem 1.6rem; }
   .hero-text .lede { font-size: 1.15rem; }
-  .hero-text h1 { font-size: clamp(2.3rem, 10.5vw, 3rem); }
   .plate-photo { width: 62%; }
   .home { padding: 0 1rem; }
   .home-section, .cta { margin-top: 3.8rem; }
