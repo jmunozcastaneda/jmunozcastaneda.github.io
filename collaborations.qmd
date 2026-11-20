@@ -14,6 +14,7 @@ Collaborative research is an essential part of my activity in mathematical and t
 - **Michael Bordag** — quantum vacuum energy and boundary effects.
 - **Klaus Kirsten** — spectral geometry, heat kernels and zeta functions.
 - **Juan Mateos Guilarte** — quantum field theory and soliton physics.
+- **Manuel Asorey** — quantum field theory and boundary conditions.
 - **Jesús Clemente-Gallardo** — mathematical physics and research collaboration.
 :::
 
