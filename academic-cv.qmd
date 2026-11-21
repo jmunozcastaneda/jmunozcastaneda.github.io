@@ -4,7 +4,7 @@ subtitle: "Teaching, research supervision, academic responsibilities and scienti
 number-sections: true
 ---
 
-This overview highlights selected areas of academic activity at the **Universidad de Valladolid**. It is a public profile, **not a substitute for the official certified CV and supporting documents** used in academic evaluation procedures. Counts, dates and roles should be checked against the latest signed CV before publication.
+This overview highlights selected areas of academic activity at the **Universidad de Valladolid**. It is a public profile, **not a substitute for the official certified CV and supporting documents** used in academic evaluation procedures.
 
 ## Academic appointment
 
@@ -12,7 +12,7 @@ This overview highlights selected areas of academic activity at the **Universida
 
 ## Research and teaching record
 
-- **Three research evaluation periods (sexenios)** and **three teaching evaluation periods (quinquenios)**, subject to verification against the current official record.
+- **Three research evaluation periods (sexenios)** and **three teaching evaluation periods (quinquenios)**.
 - **Two doctoral theses defended**, together with ongoing doctoral supervision.
 - **Twelve Bachelor's theses (TFG)**, including six associated with *Becas de Colaboración*, and **four Master's theses (TFM)** supervised.
 
