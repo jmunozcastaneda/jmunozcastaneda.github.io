@@ -1,5 +1,5 @@
 ---
-title: "Academic CV & service"
+title: "Academic CV"
 subtitle: "Teaching, research supervision, academic responsibilities and scientific leadership."
 number-sections: true
 ---
