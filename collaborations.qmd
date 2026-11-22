@@ -11,6 +11,7 @@ Collaborative research is an essential part of my activity in mathematical and t
 ::: entry-list
 - **Inés Cavero-Peláez** — quantum vacuum interactions and Casimir physics.
 - **Gonzalo Sancho-Garrido** — spectral and quantum-field-theoretic problems.
+- **Beatriz Gómez-López** — spectral and quantum-field-theoretic problems.
 - **Michael Bordag** — quantum vacuum energy and boundary effects.
 - **Klaus Kirsten** — spectral geometry, heat kernels and zeta functions.
 - **Juan Mateos Guilarte** — quantum field theory and soliton physics.
